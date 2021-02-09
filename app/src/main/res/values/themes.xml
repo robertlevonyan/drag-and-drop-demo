@@ -1,0 +1,8 @@
+<resources>
+  <style name="Theme.DragnDropDemo" parent="Theme.MaterialComponents.Light">
+    <item name="colorPrimary">@color/colorGradStart</item>
+    <item name="colorPrimaryDark">@color/colorYellow</item>
+    <item name="colorAccent">@color/colorGradEnd</item>
+    <item name="android:windowLightStatusBar">true</item>
+  </style>
+</resources>
