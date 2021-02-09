@@ -28,21 +28,21 @@ class MainActivity : AppCompatActivity() {
       submitList(words)
     }
 
-    binding.rvTop.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-    binding.rvTop.adapter = topAdapter
+    binding.rvSentence.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
+    binding.rvSentence.adapter = topAdapter
 
-    binding.rvTop.setOnDragListener(
+    binding.rvSentence.setOnDragListener(
         DropListener {
           bottomAdapter.removeItem(selectedWord)
           topAdapter.addItem(selectedWord)
         }
     )
 
-    binding.rvBottom.layoutManager = FlexboxLayoutManager(this, FlexDirection.ROW, FlexWrap.WRAP).apply {
+    binding.rvWords.layoutManager = FlexboxLayoutManager(this, FlexDirection.ROW, FlexWrap.WRAP).apply {
       justifyContent = JustifyContent.SPACE_EVENLY
       alignItems = AlignItems.CENTER
     }
 
-    binding.rvBottom.adapter = bottomAdapter
+    binding.rvWords.adapter = bottomAdapter
   }
 }

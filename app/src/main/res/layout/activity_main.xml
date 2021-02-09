@@ -8,29 +8,28 @@
   tools:context=".MainActivity">
 
   <androidx.cardview.widget.CardView
-    android:id="@+id/rvTopCard"
+    android:id="@+id/rvSentenceCard"
     android:layout_width="0dp"
     android:layout_height="0dp"
     android:layout_margin="16dp"
     app:cardBackgroundColor="@android:color/transparent"
     app:cardCornerRadius="8dp"
     app:cardElevation="0dp"
-    app:layout_constraintBottom_toTopOf="@id/rvBottom"
+    app:layout_constraintBottom_toTopOf="@id/rvWords"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHeight_percent="0.5"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent">
 
     <androidx.recyclerview.widget.RecyclerView
-      android:id="@+id/rvTop"
+      android:id="@+id/rvSentence"
       android:layout_width="match_parent"
       android:layout_height="match_parent"
-      android:overScrollMode="never"
-      tools:listitem="@layout/item_word" />
+      android:overScrollMode="never" />
   </androidx.cardview.widget.CardView>
 
   <androidx.recyclerview.widget.RecyclerView
-    android:id="@+id/rvBottom"
+    android:id="@+id/rvWords"
     android:layout_width="0dp"
     android:layout_height="wrap_content"
     android:clipToPadding="false"
@@ -40,6 +39,5 @@
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintHeight_percent="0.5"
     app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toBottomOf="@id/rvTopCard"
-    tools:listitem="@layout/item_word" />
+    app:layout_constraintTop_toBottomOf="@id/rvSentenceCard" />
 </androidx.constraintlayout.widget.ConstraintLayout>
