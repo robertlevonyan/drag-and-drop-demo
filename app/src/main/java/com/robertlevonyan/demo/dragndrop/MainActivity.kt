@@ -21,20 +21,20 @@ class MainActivity : AppCompatActivity() {
     super.onCreate(savedInstanceState)
     setContentView(binding.root)
 
-    val topAdapter = SentenceAdapter()
-    val bottomAdapter = WordsAdapter {
+    val sentenceAdapter = SentenceAdapter()
+    val wordsAdapter = WordsAdapter {
       selectedWord = it
     }.apply {
       submitList(words)
     }
 
     binding.rvSentence.layoutManager = LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false)
-    binding.rvSentence.adapter = topAdapter
+    binding.rvSentence.adapter = sentenceAdapter
 
     binding.rvSentence.setOnDragListener(
         DropListener {
-          bottomAdapter.removeItem(selectedWord)
-          topAdapter.addItem(selectedWord)
+          wordsAdapter.removeItem(selectedWord)
+          sentenceAdapter.addItem(selectedWord)
         }
     )
 
@@ -43,6 +43,6 @@ class MainActivity : AppCompatActivity() {
       alignItems = AlignItems.CENTER
     }
 
-    binding.rvWords.adapter = bottomAdapter
+    binding.rvWords.adapter = wordsAdapter
   }
 }
