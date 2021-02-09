@@ -9,6 +9,8 @@
 
 <img src="https://github.com/robertlevonyan/DragAndDropDemo/blob/master/media/appflow.gif" width="500" />
 
+Also I've created a small publication about Drag and Drop. You can read it <a href="https://robertlevonyan.medium.com/drag-and-drop-in-android-all-you-need-to-know-6df8babfb507>here</a>
+
 ## Contact
 
 - **Email**: me@robertlevonyan.com
