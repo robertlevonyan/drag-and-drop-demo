@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-  compileSdk = 31
+  compileSdk = 32
   defaultConfig {
     applicationId = "com.robertlevonyan.demo.dragndrop"
     minSdk = 23
-    targetSdk = 31
+    targetSdk = 32
     versionCode = 1
     versionName = "1.0"
 
@@ -34,8 +34,8 @@ android {
 
 dependencies {
   kotlin("stdlib")
-  implementation("com.google.android.material:material:1.4.0")
-  implementation("androidx.appcompat:appcompat:1.3.1")
-  implementation("androidx.constraintlayout:constraintlayout:2.1.0")
+  implementation("com.google.android.material:material:1.5.0")
+  implementation("androidx.appcompat:appcompat:1.4.1")
+  implementation("androidx.constraintlayout:constraintlayout:2.1.3")
   implementation("com.google.android:flexbox:2.0.1")
 }
