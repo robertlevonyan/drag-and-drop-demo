@@ -1,13 +1,13 @@
-# <img src="https://github.com/robertlevonyan/DragAndDropDemo/blob/master/app/src/main/ic_launcher-playstore.png"  width="50" height="50" /> &nbsp;&nbsp;&nbsp; Drag and Drop Demo
+# <img src="https://github.com/robertlevonyan/drag-and-drop-demo/blob/master/app/src/main/ic_launcher-playstore.png"  width="50" height="50" /> &nbsp;&nbsp;&nbsp; Drag and Drop Demo
 
-|A demo application to represent a drag and drop in Android|<img src="https://github.com/robertlevonyan/DragAndDropDemo/blob/master/media/dragndrop.png"  width="450" />|
+|A demo application to represent a drag and drop in Android|<img src="https://github.com/robertlevonyan/drag-and-drop-demo/blob/master/media/dragndrop.png"  width="450" />|
 |----------------------------------------------------------------------------------------------|-----------|
  
 [![API](https://img.shields.io/badge/API-23%2B-yellow.svg?style=flat-square)](https://android-arsenal.com/api?level=23)
 
 ## How the app works
 
-<img src="https://github.com/robertlevonyan/DragAndDropDemo/blob/master/media/appflow.gif" width="500" />
+<img src="https://github.com/robertlevonyan/drag-and-drop-demo/blob/master/media/appflow.gif" width="500" />
 
 Also I've created a small blog-post about Drag and Drop. You can read it [here](https://robertlevonyan.medium.com/drag-and-drop-in-android-all-you-need-to-know-6df8babfb507)
 
@@ -19,6 +19,10 @@ Also I've created a small blog-post about Drag and Drop. You can read it [here](
 - **Twitter**: https://twitter.com/@RobertLevonyan
 - **Facebook**: https://facebook.com/robert.levonyan
 - **Google Play**: https://play.google.com/store/apps/dev?id=5477562049350283357
+
+<a href="https://www.buymeacoffee.com/robertlevonyan">
+  <img src="https://github.com/robertlevonyan/drag-and-drop-demo/blob/master/media/coffee.jpeg"  width="300" />
+</a>
 
 ## Licence
 
