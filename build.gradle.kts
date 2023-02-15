@@ -1,21 +1,7 @@
-buildscript {
-  repositories {
-    google()
-    jcenter()
-    mavenCentral()
-  }
-  dependencies {
-    classpath("com.android.tools.build:gradle:7.1.0")
-    classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.21")
-  }
-}
-
-allprojects {
-  repositories {
-    google()
-    jcenter()
-    mavenCentral()
-  }
+plugins {
+  id("com.android.application") version "7.4.1" apply false
+  id("com.android.library") version "7.4.1" apply false
+  kotlin("android") version "1.8.0" apply false
 }
 
 tasks.register("clean", Delete::class) {
