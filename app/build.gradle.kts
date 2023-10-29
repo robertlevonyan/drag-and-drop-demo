@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-  compileSdk = 33
+  compileSdk = 34
   defaultConfig {
     applicationId = "com.robertlevonyan.demo.dragndrop"
     minSdk = 23
-    targetSdk = 33
+    targetSdk = 34
     versionCode = 1
     versionName = "1.0"
 
@@ -24,18 +24,12 @@ android {
   kotlinOptions {
     jvmTarget = "17"
   }
-  buildTypes {
-    getByName("release") {
-      isMinifyEnabled = false
-      proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "$project.rootDir/tools/proguard-rules.pro")
-    }
-  }
   namespace = "com.robertlevonyan.demo.dragndrop"
 }
 
 dependencies {
   kotlin("stdlib")
-  implementation("com.google.android.material:material:1.9.0")
+  implementation("com.google.android.material:material:1.10.0")
   implementation("androidx.appcompat:appcompat:1.6.1")
   implementation("androidx.constraintlayout:constraintlayout:2.1.4")
   implementation("com.google.android.flexbox:flexbox:3.0.0")
